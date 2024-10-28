@@ -1,0 +1,22 @@
+{
+  "name": "javascriptGraphics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open"
+  },
+  "repository": "git@github.com:John-Skinner/javascriptGraphics.git",
+  "author": "john skinner <j.v.skinner.jr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
